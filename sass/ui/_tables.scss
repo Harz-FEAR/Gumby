@@ -169,7 +169,7 @@ table {
 /* Hack to make IE9 and WP7.5 treat cells like block level elements, scoped to ui-responsive class */ 
 /* Applied in a max-width media query up to the table layout breakpoint so we don't need to negate this*/ 
 @media ( max-width: $table-reflow-breakpoint ) {
-	.ui-table-reflow {
+	.reflow {
 		td, th {
 			width: 100%;
 			@include box-sizing(border-box);
